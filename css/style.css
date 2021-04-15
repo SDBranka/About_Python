@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     /* border: 1px solid red; */
@@ -10,176 +10,177 @@
     margin: 50px auto;
 }
 
-    #header {
-        display: flex;
-        padding: 10px;
-    }
+#header {
+    display: flex;
+    padding: 10px;
+}
 
-        #python {
-            width: 400px;
-        }
+#python {
+    width: 400px;
+}
 
-        #search {
-            font-size: 14px;
-            padding: 10px 0px 0px 250px;
-        }
+#search {
+    font-size: 14px;
+    padding: 10px 0px 0px 250px;
+}
 
-            #search p {
-                color: white;
-                padding: 0px 0px 5px 120px;
-            }
+#search p {
+    color: white;
+    padding: 0px 0px 5px 120px;
+}
 
-            #search a {
-                color: #ffd42e;
-            }
+#search a {
+    color: #ffd42e;
+}
 
-            #search form {
-                background-color: #444444;
-                padding: 15px 30px;
-                display: flex;
-                border-radius: 7px;
-            }
+#search form {
+    background-color: #444444;
+    padding: 15px 30px;
+    display: flex;
+    border-radius: 7px;
+}
 
-                #button {
-                    background-color: #245076;
-                    color: white;
-                    margin-left: 9px;
-                    padding: 5px 10px;
-                    border: 1px solid white;
-                    border-radius: 5px;
-                }
-    
-    #navBar {
-        background-color: #427cad;
-        display: flex;
-        border-radius: 5px;
-        box-shadow: 3px 3px 5px black;
-        margin: 15px 45px;
-        justify-content: space-evenly;
-    }
+#button {
+    background-color: #245076;
+    color: white;
+    margin-left: 9px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
 
-        #navBar li {
-                display: flex;
-                text-decoration: none;
-                list-style: none;
-        }
+#navBar {
+    background-color: #427cad;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+    margin: 15px 45px;
+    justify-content: space-evenly;
+}
 
-        #navBar a {
-            color: white;
-            text-decoration: none;
-            font-size: 23px;
-            padding: 5px;
-        }
-    
-    #main {
-        display: flex;
-        margin: 0 auto;
-    }
+#navBar li {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
 
-        #leftMenu {
-            padding: 15px 35px 0px 100px;
-            text-align: center;
-        }
+#navBar a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 5px;
+}
 
-            #leftMenu li {
-                color: #ffd42e;
-            }
+#main {
+    display: flex;
+    margin: 0 auto;
+}
 
-                #leftMenu a{
-                    color: white;
-                }
+#leftMenu {
+    padding: 15px 35px 0px 100px;
+    text-align: center;
+}
 
-        #text {
-            text-align: center;    
-        }
+#leftMenu li {
+    color: #ffd42e;
+    list-style: none;
+}
 
-            #about {
-                color: white;
-                font-size: 14px;
-                padding: 0px 30px 0px 0px;
-                /* text-align: center; */
-            }
+#leftMenu li::before {
+    content: "\00BB";
+    padding-right: 7px;
+    margin-left: -7px;
+}
 
-            .script {
-                color: #ffd42e;
-                font-style: italic;
-                padding: 5px;
-            }
+#leftMenu a {
+    color: white;
+}
 
-            .scriptLast {
-                color: white;
-                padding: 5px 0px 25px 0px;
-            }
+#text {
+    text-align: center;
+}
 
-    #guide {
-        background-color: white;
-        display: flex;
-        padding: 10px 70px;
-    }
+#about {
+    color: white;
+    font-size: 14px;
+    padding: 0px 30px 0px 0px;
+    /* text-align: center; */
+}
 
-        .pod {
-            border-top: 4px solid #73a7d5;
-            /* text-align: center; */
-            width: 40%;
-            padding: 10px 40px 0px 20px;
-            margin: 15px;
-        }
+.script {
+    color: #ffd42e;
+    font-style: italic;
+    padding: 5px;
+}
 
-            .pod h3 {
-                text-align: center;
-            }
+.scriptLast {
+    color: white;
+    padding: 5px 0px 25px 0px;
+}
 
-            .pod p {
-                text-align: center;
-                padding: 10px 0px 5px 0px;
-            }
+#guide {
+    background-color: white;
+    display: flex;
+    padding: 10px 70px;
+}
 
-            .pod ul {
-                padding: 0px 0px 0px 45px;
-                display: block;
-            }
+.pod {
+    border-top: 4px solid #73a7d5;
+    /* text-align: center; */
+    width: 40%;
+    padding: 10px 40px 0px 20px;
+    margin: 15px;
+}
 
-            .pod li {
-                /* text-align: center; */
-                padding-bottom: 5px;
+.pod h3 {
+    text-align: center;
+}
 
-            }
-                .pod a {
-                    color: #79abd7;
-                    text-align: center;
-                }
+.pod p {
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+}
 
-    #footer {
-        padding: 40px 50px 5px 50px;
-        text-decoration: none;
+.pod ul {
+    padding: 0px 0px 0px 45px;
+    display: block;
+}
 
-    }
+.pod li {
+    padding-bottom: 5px;
+}
 
-        #links {
-            display: flex;
-            justify-content: center;
-        }
+.pod li a {
+    color: #79abd7;
+}
 
-            #footer a {
-                color: #87b9e5;
-                text-decoration: none;
-                font-size: 16x;
-                padding: 5px 15px 10px 15px;
-            }
+.links {
+    width: 300px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
 
-            #footer p {
-                color: #87b9e5;
-                font-size: 9px;
-                text-align: center;
-                padding: 5px;
-            }
+#footer {
+    padding: 40px 50px 5px 50px;
+    text-decoration: none;
+}
 
-        
-    
+#links {
+    display: flex;
+    justify-content: center;
+}
 
+#footer a {
+    color: #87b9e5;
+    text-decoration: none;
+    font-size: 16x;
+    padding: 5px 15px 10px 15px;
+}
 
-
-
-
-
-
+#footer p {
+    color: #87b9e5;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px;
+}
